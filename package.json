@@ -1,5 +1,5 @@
 {
-  "name": "next-material-ui-template",
+  "name": "{name.param}",
   "version": "0.1.0",
   "private": true,
   "scripts": {

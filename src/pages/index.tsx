@@ -9,7 +9,7 @@ export const HomePage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>home - next-material-ui-template</title>
+        <title>home - __ctp__name_param</title>
       </Head>
 
       <div>
