@@ -1,5 +1,5 @@
+import { Box, Button, Typography } from '@mui/material'
 import { NextPage } from 'next'
-import Head from 'next/head'
 
 /**
  * HomePage component.
@@ -7,11 +7,10 @@ import Head from 'next/head'
 export const HomePage: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>home - next-material-ui-vannila-next</title>
-      </Head>
-
-      <div>next-material-ui-vannila-next</div>
+      <Box sx={{ p: 4 }}>
+        <Typography variant="h4">Template</Typography>
+        <Button>hello world</Button>
+      </Box>
     </>
   )
 }
